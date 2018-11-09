@@ -1,0 +1,17 @@
+{
+  "name": "Carta Monday Mode",
+  "description": "Make Carta work as a flippable dashboard",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "manifest_version": 2,
+   "content_scripts": [
+   {
+     "matches": ["https://app.carta.com/*"],
+     "css": ["styles.css"],
+     "js": ["jquery-3.3.1.slim.min.js", "contentScript.js"],
+     "run_at": "document_idle"
+   }
+ ]
+}

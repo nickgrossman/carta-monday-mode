@@ -1,0 +1,15 @@
+
+/* hide top nav */
+.nav {
+	display:none;
+}
+
+/* hide "invite to carta" banner */
+.banner__info {
+	display: none;
+}
+
+/* hide holdings section */
+.block--body .section:nth-child(2) {
+	display: none;
+ }
